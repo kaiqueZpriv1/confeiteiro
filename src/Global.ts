@@ -7,12 +7,10 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        background-color: rgba(200, 200, 200, 1);
-        
+        background-color: rgba(1,1,14,1);
     }
     a{
         text-decoration: none;
-
     }
     h1,h3{
         font-family: 'Inter', sans-serif;
