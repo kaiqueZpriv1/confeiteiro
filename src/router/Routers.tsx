@@ -1,10 +1,11 @@
 import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from '../App';
-import { AboutC } from '../components/about/AboutC';
-import { HabilidadeC } from '../components/Habilidades/HabilidadeC';
-import { PortfolioC } from '../components/portfolio/PortfolioC';
-import { ContactC } from '../components/contact/ContactC';
+
+import { About } from '../pages/About';
+import { Habilidade } from '../pages/Habilidade';
+import { Contato } from '../pages/Contato';
+import { Portfolio } from '../pages/Portfolio';
 
 const router = createBrowserRouter([
 	{
@@ -13,19 +14,19 @@ const router = createBrowserRouter([
 	},
 	{
 		path: '/sobre',
-		element: <AboutC />,
+		element: <About/>,
 	},
 	{
 		path: '/habilidades',
-		element: <HabilidadeC />,
+		element: <Habilidade/>,
 	},
 	{
 		path: '/portfolio',
-		element: <PortfolioC />,
+		element: <Portfolio/>,
 	},
 	{
 		path: '/contact',
-		element: <ContactC />,
+		element: <Contato/>,
 	},
 ]);
 
