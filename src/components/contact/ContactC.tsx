@@ -23,11 +23,10 @@ const Logo = () => {
 	);
 };
 
-
 export const ContactC = () => {
 	return (
 		<ContactS>
-            <Logo/>
+			<Logo />
 			<div className='container-contact'>
 				<RoutersContact>
 					<h3 className='title-ctt'>Paginas</h3>
@@ -44,12 +43,11 @@ export const ContactC = () => {
 					<p className='router-ctt'>Git-Hub</p>
 				</RoutersContact>
 				<RoutersContact>
-					<h3 className='title-ctt'>  </h3>
+					<h3 className='title-ctt'> </h3>
 					<p className='router-ctt'>Kaique Ferreira</p>
 					<p className='router-ctt'>São Paulo</p>
 					<p className='router-ctt'>11 93332-3486</p>
 					<p className='router-ctt'>kaiquedev.dev@gmail.com</p>
-
 				</RoutersContact>
 			</div>
 		</ContactS>
