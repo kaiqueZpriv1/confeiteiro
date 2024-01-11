@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HabilidadesS = styled.section`
 	width: 100%;
-	padding: 200px 0;
+	padding: 150px 0 100px 0;
 	.container-habilidade {
 		display: grid;
 		grid-template-columns: 200px 200px 200px;
@@ -30,41 +30,4 @@ export const BoxingHabilidade = styled.div`
 		font-size: 1.5em;
 		text-align: center;
 	}
-`;
-
-export const LineHab = styled.div`
-	.line-svg-left {
-		position: relative;
-		transform: rotate(-30deg);
-		top: 60px;
-		z-index: 7;
-		width: 140px;
-		left: 100px;
-	}
-	.line-svg1-left {
-		position: relative;
-		transform: rotate(-30deg);
-		top: 40px;
-		z-index: 7;
-		width: 115px;
-		left: -10px;
-	}
-	.line-svg2-left {
-		position: relative;
-		transform: rotate(-30deg);
-		top: 20px;
-		z-index: 7;
-		width: 90px;
-		left: -95px;
-	}
-`;
-
-export const InvisibleHab = styled.div`
-	width: 120px;
-	background-color: rgba(1, 1, 14, 1);
-	height: 50px;
-	position: relative;
-	top: 75px;
-	left: 120px;
-	z-index: 8;
 `;

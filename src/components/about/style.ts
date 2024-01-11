@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const AboutS = styled.section`
 	width: 100%;
-	padding: 700px 100px 0 100px;
+	padding: 100px 100px 0 100px;
+	overflow: hidden;
 	.container-about {
 		display: flex;
 		gap: 20px;

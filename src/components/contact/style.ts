@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const ContactS = styled.section`
-	padding: 100px 0 0 0;
+	padding: 100px 0 30px 0;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 	.container-contact {
 		width: 100%;
 		margin: 50px 0 0 0;
@@ -31,6 +32,7 @@ export const RoutersContact = styled.div`
 		font-size: 1.3em;
 		color: #bfcfe7;
 		font-weight: 600;
+		cursor: pointer;
 	}
 	.router-ctt:hover {
 		transform: scale(1.1);

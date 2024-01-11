@@ -1,6 +1,7 @@
 import React from 'react';
 import { AboutImage, AboutS, AboutText, ButtonAbout } from './style';
-import PessoalImg from './image/pessoal.jpeg'
+import PessoalImg from './image/pessoal.jpeg';
+import { Fade } from 'react-awesome-reveal';
 export const AboutC = () => {
 	return (
 		<AboutS>
@@ -18,9 +19,12 @@ export const AboutC = () => {
 					</p>
 					<ButtonAbout>Orçamento</ButtonAbout>
 				</AboutText>
-                <AboutImage>
-                    <img src={PessoalImg} alt='about' className='image-about'/>
-                </AboutImage>
+
+				<Fade cascade direction='right' damping={0.2}>
+					<AboutImage>
+						<img src={PessoalImg} alt='about' className='image-about' />
+					</AboutImage>
+				</Fade>
 			</div>
 		</AboutS>
 	);

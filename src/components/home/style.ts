@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HomeS = styled.main`
 	width: 100%;
-	padding: 200px 100px 0 100px;
+	padding: 200px 100px 500px 100px;
 	.container-home {
 		display: flex;
 		flex-direction: column;

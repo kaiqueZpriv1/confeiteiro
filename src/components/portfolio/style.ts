@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const PortfolioS = styled.section`
 	padding: 100px 0 100px 0;
+	overflow: hidden;
 	.container-portfolio {
 		display: grid;
 		grid-template-columns: 350px 350px 350px;
@@ -32,7 +33,6 @@ export const BoxingPortfolio = styled.div`
 		color: #000;
 		text-shadow: 0 0 5px #f9f9f9;
 		font-weight: 700;
-		transition: 1s;
 	}
 	.btn-portfolio {
 		padding: 5px;

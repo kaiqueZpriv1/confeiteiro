@@ -1,5 +1,5 @@
 import React from 'react';
-import { BoxingHabilidade, HabilidadesS, InvisibleHab, LineHab } from './style';
+import { BoxingHabilidade, HabilidadesS } from './style';
 
 import Html from './image/icon-html.png';
 import Css from './image/icon-css.png';
@@ -8,6 +8,7 @@ import ReactJS from './image/icon-reactjs.png';
 import Git from './image/icon-git.png';
 import Github from './image/icon-github.png';
 import LineSvg from '../home/svg/Vector.svg';
+import { Fade } from 'react-awesome-reveal';
 export const HabilidadeC = () => {
 	const listHabilidade = [
 		{
@@ -49,24 +50,20 @@ export const HabilidadeC = () => {
 	];
 	return (
 		<HabilidadesS>
-			<InvisibleHab/>
-			<LineHab>
-				<img src={LineSvg} alt='line' className='line-svg-left' />
-				<img src={LineSvg} alt='line' className='line-svg1-left' />
-				<img src={LineSvg} alt='line' className='line-svg2-left' />
-			</LineHab>
-			<div className='container-habilidade'>
-				{listHabilidade.map((i) => {
-					return (
-						<BoxingHabilidade key={i.id}>
-							<img src={i.img} alt='tec' className='image-hbl' />
-							<h3 className='title-hbl' style={{ color: i.color }}>
-								{i.title}
-							</h3>
-						</BoxingHabilidade>
-					);
-				})}
-			</div>
+			<Fade direction='down'>
+				<div className='container-habilidade'>
+					{listHabilidade.map((i) => {
+						return (
+							<BoxingHabilidade key={i.id}>
+								<img src={i.img} alt='tec' className='image-hbl' />
+								<h3 className='title-hbl' style={{ color: i.color }}>
+									{i.title}
+								</h3>
+							</BoxingHabilidade>
+						);
+					})}
+				</div>
+			</Fade>
 		</HabilidadesS>
 	);
 };
