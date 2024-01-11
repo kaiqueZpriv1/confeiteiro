@@ -5,6 +5,7 @@ import { HomeC } from './components/home/HomeC';
 import { AboutC } from './components/about/AboutC';
 import { HabilidadeC } from './components/Habilidades/HabilidadeC';
 import { PortfolioC } from './components/portfolio/PortfolioC';
+import { ContactC } from './components/contact/ContactC';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<AboutC/>
 			<HabilidadeC/>
 			<PortfolioC/>
+			<ContactC/>
 		</div>
 	);
 }
