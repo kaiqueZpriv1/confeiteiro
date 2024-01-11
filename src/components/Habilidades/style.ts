@@ -10,6 +10,11 @@ export const HabilidadesS = styled.section`
 		align-items: center;
 		justify-content: center;
 	}
+	@media (max-width: 480px) {
+		.container-habilidade {
+			grid-template-columns: 150px 150px;
+		}
+	}
 `;
 
 export const BoxingHabilidade = styled.div`
@@ -29,5 +34,14 @@ export const BoxingHabilidade = styled.div`
 	.title-hbl {
 		font-size: 1.5em;
 		text-align: center;
+	}
+	@media (max-width: 480px){
+		padding: 25px;
+		.image-hbl{
+			width: 80px;
+		}
+		.title-hbl{
+			font-size: 1.3em;
+		}
 	}
 `;

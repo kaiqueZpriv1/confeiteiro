@@ -16,6 +16,13 @@ export const ContactS = styled.section`
 		align-items: center;
 		gap: 20px;
 	}
+	@media (max-width: 480px) {
+		.container-contact {
+			margin: 70px 0 0 0;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
 `;
 
 export const RoutersContact = styled.div`
@@ -38,5 +45,15 @@ export const RoutersContact = styled.div`
 		transform: scale(1.1);
 		transition: 0.4s;
 		color: #fafafa;
+	}
+	@media (max-width: 480px) {
+		.title-ctt {
+			text-align: center;
+			font-size: 2.5em;
+		}
+		.router-ctt {
+			font-size: 1.7em;
+			text-align: center;
+		}
 	}
 `;

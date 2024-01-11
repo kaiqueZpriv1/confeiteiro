@@ -27,22 +27,8 @@ export const HomeText = styled.div`
 		color: #bfcfe7;
 		font-size: 900;
 		text-align: center;
-		/* background: linear-gradient(90deg, rgba(1, 1, 14, 1), #bfcfe7);
-		letter-spacing: 5px;
-		-webkit-text-fill-color: transparent;
-		background-repeat: no-repeat;
-		background-size: 80%;
-		animation: shine 5s linear infinite;
-		position: relative; */
 	}
-	/* @keyframes shine {
-		0% {
-			background-position-x: -100%;
-		}
-		100% {
-			background-position-x: 500%;
-		}
-	} */
+
 	.name-home {
 		display: flex;
 		gap: 10px;
@@ -54,6 +40,17 @@ export const HomeText = styled.div`
 		font-size: 2em;
 		color: #bfcfe7;
 		font-size: 500;
+	}
+	@media (max-width: 480px) {
+		.text-primary {
+			font-size: 2em;
+		}
+		.name-home {
+			font-size: 2.3em;
+		}
+		.description-home {
+			font-size: 1.8em;
+		}
 	}
 `;
 
@@ -81,6 +78,11 @@ export const Line1 = styled.div`
 		width: 90px;
 		left: 160px;
 	}
+	@media (max-width: 480px) {
+		& {
+			display: none;
+		}
+	}
 `;
 export const Line2 = styled.div`
 	.line-svg-right {
@@ -107,6 +109,11 @@ export const Line2 = styled.div`
 		width: 90px;
 		right: 160px;
 	}
+	@media (max-width: 480px) {
+		& {
+			display: none;
+		}
+	}
 `;
 
 export const Cerebro = styled.div`
@@ -115,6 +122,16 @@ export const Cerebro = styled.div`
 		position: absolute;
 		top: 100px;
 		right: 80px;
+	}
+	@media (max-width: 480px) {
+		/* & {
+			display: none;
+		} */
+		.cerebro-svg-right {
+			width: 150px;
+			top: 700px;
+			left: 30px;
+		}
 	}
 `;
 
@@ -125,6 +142,15 @@ export const PrompIa = styled.div`
 		left: 100px;
 		bottom: 40px;
 	}
+	@media (max-width: 480px) {
+		/* & {
+			display: none;
+		} */
+		.promp-svg {
+			top: 700px;
+			left: 250px;
+		}
+	}
 `;
 
 export const Map = styled.div`
@@ -134,6 +160,12 @@ export const Map = styled.div`
 		width: 550px;
 		inset: 100px 400px;
 		transform: rotate(-7deg);
+	}
+	@media (max-width: 480px) {
+		.br-map {
+			inset: 0150px 0 0 0;
+			width: 400px;
+		}
 	}
 `;
 
@@ -153,5 +185,10 @@ export const Invisible = styled.div`
 		font-size: 1em;
 		color: #00a7e1;
 		font-weight: 600;
+	}
+	@media (max-width: 480px) {
+		& {
+			display: none;
+		}
 	}
 `;

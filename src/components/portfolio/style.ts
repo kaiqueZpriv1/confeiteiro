@@ -10,6 +10,11 @@ export const PortfolioS = styled.section`
 		justify-content: center;
 		gap: 50px;
 	}
+	@media (max-width: 480px) {
+		.container-portfolio {
+			grid-template-columns: 350px;
+		}
+	}
 `;
 
 export const BoxingPortfolio = styled.div`

@@ -10,6 +10,15 @@ export const AboutS = styled.section`
 		align-items: center;
 		justify-content: center;
 	}
+	@media (max-width: 480px) {
+		& {
+			padding: 160px 0 0 0;
+		}
+		.container-about {
+			flex-direction: column-reverse;
+			gap: 0;
+		}
+	}
 `;
 
 export const AboutText = styled.div`
@@ -25,6 +34,19 @@ export const AboutText = styled.div`
 	.paragrafo-about {
 		font-size: 1.3em;
 		color: #bfcfe7;
+	}
+	@media (max-width: 480px) {
+		& {
+			width: 100%;
+			padding: 0 10px;
+		}
+		.title-about {
+			text-align: center;
+		}
+		.paragrafo-about {
+			text-align: center;
+			font-size: 1.5em;
+		}
 	}
 `;
 
@@ -43,6 +65,12 @@ export const ButtonAbout = styled.button`
 		transform: scale(1.1);
 		transition: 0.5s;
 	}
+	@media (max-width: 480px) {
+		& {
+			text-align: center;
+			margin: 20px 0 0 80px;
+		}
+	}
 `;
 
 export const AboutImage = styled.div`
@@ -52,5 +80,15 @@ export const AboutImage = styled.div`
 		width: 450px;
 		height: 450px;
 		border-radius: 10px;
+	}
+	@media (max-width: 480px) {
+		& {
+			width: 100%;
+		}
+		.image-about {
+			width: 250px;
+			height: 100%;
+			border-radius: 100%;
+		}
 	}
 `;
