@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BoxingPortfolio, PortfolioS } from './style';
 import ExplorerImg from './image/explorer.png';
-import Personal from './image/personal.png';
+import Personal from './image/personal.jpg';
 import Calculadora from './image/calculadora.png';
 import Nutricao from './image/nutrição.png';
 import Psicologa from './image/psicologa.png';
@@ -66,7 +66,7 @@ export const PortfolioC = () => {
 								className='box-reveal-ptf'
 								style={{ display: focusedIndex === index ? 'block' : 'none' }}>
 								<h3 className='title-portfolio'>{portfolio.text}</h3>
-								<button className='btn-portfolio'>Acessar</button>
+								{/* <button className='btn-portfolio'>Acessar</button> */}
 							</div>
 						</BoxingPortfolio>
 					))}
