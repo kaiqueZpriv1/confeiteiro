@@ -56,9 +56,11 @@ export const ButtonAbout = styled.button`
 	border-radius: 10px;
 	border: 2px solid #bfcfe7;
 	background-color: transparent;
-	color: #bfcfe7;
-	font-size: 1.2em;
 	width: 200px;
+	.btn-abt {
+		color: #bfcfe7;
+		font-size: 1.2em;
+	}
 	&:hover {
 		border: 2px solid #00a7e1;
 		background-color: #00a7e1;

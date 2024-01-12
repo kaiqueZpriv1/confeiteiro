@@ -17,7 +17,15 @@ export const AboutC = () => {
 						estudo e desenvolvo projetos como freelancer, buscando evoluir e
 						ampliar meus conhecimentos em Front-End.
 					</p>
-					<ButtonAbout>Orçamento</ButtonAbout>
+					<ButtonAbout>
+						<a
+							href='https://api.whatsapp.com/send/?phone=933323486&text&type=phone_number&app_absent=0'
+							target='_blank'
+							rel='noreferrer'
+							className='btn-abt'>
+							Orçamento
+						</a>
+					</ButtonAbout>
 				</AboutText>
 
 				<Fade cascade direction='right' damping={0.2}>
