@@ -39,7 +39,7 @@ export const BoxingPortfolio = styled.div`
 		text-shadow: 0 0 5px #f9f9f9;
 		font-weight: 700;
 	}
-	/* .btn-portfolio {
+	.btn-portfolio {
 		padding: 5px;
 		font-size: 1em;
 		border-radius: 5px;
@@ -55,5 +55,5 @@ export const BoxingPortfolio = styled.div`
 		background-color: #00a7e1;
 		transform: scale(1.1);
 		transition: 0.4s;
-	} */
+	}
 `;

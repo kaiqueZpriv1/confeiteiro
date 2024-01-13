@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { BoxingPortfolio, PortfolioS } from './style';
-import ExplorerImg from './image/explorer.png';
-import Personal from './image/personal.jpg';
-import Calculadora from './image/calculadora.png';
-import Nutricao from './image/nutrição.png';
-import Psicologa from './image/psicologa.png';
-import Marketing from './image/marketing.png';
+import ExplorerImg from './pages/image/explorer.png';
+import Personal from './pages/image/personal.jpg';
+import Calculadora from './pages/image/calculadora.png';
+import Nutricao from './pages/image/nutrição.png';
+import Psicologa from './pages/image/psicologa.png';
+import Marketing from './pages/image/marketing.png';
 import { Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 export const PortfolioC = () => {
 	const [focusedIndex, setFocusedIndex] = useState<number | null>(null); // Allow null as a possible value
 
@@ -66,7 +67,9 @@ export const PortfolioC = () => {
 								className='box-reveal-ptf'
 								style={{ display: focusedIndex === index ? 'block' : 'none' }}>
 								<h3 className='title-portfolio'>{portfolio.text}</h3>
-								{/* <button className='btn-portfolio'>Acessar</button> */}
+								<Link to='/personal'>
+									<button className='btn-portfolio'>Acessar</button>
+								</Link>
 							</div>
 						</BoxingPortfolio>
 					))}
