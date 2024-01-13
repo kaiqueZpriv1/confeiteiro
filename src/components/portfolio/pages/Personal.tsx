@@ -55,17 +55,19 @@ export const Personal = () => {
 					/>
 					<div className='apresentacao-page'>
 						<div className='box-text-container'>
-							<h3 className='title-page'>Personal Treiner - Juan Bueno</h3>
-							<span className='spn-page'>Portfolio</span>
+							<h3 className='title-page'>Personal Treiner </h3>
+							<span className='spn-page'>Portfólio</span>
 						</div>
-						<button className='btn-page'>
-							<AiOutlineGlobal size={20} color='#bfcfe7' />
-							Visitar
-						</button>
-						<button className='btn-page'>
-							<AiOutlineGithub size={20} color='#bfcfe7' />
-							Repositorio
-						</button>
+						<div className='buttons-page'>
+							<button className='btn-page'>
+								<AiOutlineGlobal size={25} color='#bfcfe7' />
+								Visitar
+							</button>
+							<button className='btn-page'>
+								<AiOutlineGithub size={25} color='#bfcfe7' />
+								Repositorio
+							</button>
+						</div>
 					</div>
 				</ContainerPage>
 				<TextPage>
