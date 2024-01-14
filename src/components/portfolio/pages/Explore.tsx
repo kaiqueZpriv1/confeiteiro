@@ -20,8 +20,14 @@ export const Explore = () => {
 						</div>
 						<div className='buttons-page'>
 							<button className='btn-page'>
-								<AiOutlineGithub size={25} color='#bfcfe7' />
-								Repositorio
+								<a
+									className='link-btn-ptf'
+									href='https://github.com/kaiqueZpriv1/Explore-lab'
+									rel='noreferrer'
+									target='_blank'>
+									<AiOutlineGithub size={25} color='#bfcfe7' />
+									Repositorio
+								</a>
 							</button>
 						</div>
 					</div>

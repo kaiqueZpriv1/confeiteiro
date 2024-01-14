@@ -41,14 +41,17 @@ export const BoxingPortfolio = styled.div`
 	}
 	.btn-portfolio {
 		padding: 5px;
-		font-size: 1em;
 		border-radius: 5px;
 		border: 2px solid #bfcfe7;
-		color: #bfcfe7;
-		font-weight: 700;
 		background-color: transparent;
 		text-shadow: 0 0 5px #000;
 		box-shadow: 0 0 5px #000;
+	}
+	.link-btn-ptf {
+		color: #bfcfe7;
+		font-weight: 700;
+		font-size: 1em;
+		text-decoration: none;
 	}
 	.btn-portfolio:hover {
 		border: 2px solid #00a7e1;
