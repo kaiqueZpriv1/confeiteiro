@@ -23,26 +23,32 @@ export const PortfolioC = () => {
 		{
 			image: Personal,
 			text: 'Personal trainer',
+			route: '/personal',
 		},
 		{
 			image: Psicologa,
 			text: 'Psicologa',
+			route: '/psicologa',
 		},
 		{
 			image: ExplorerImg,
 			text: 'Explore',
+			route: '/explore',
 		},
 		{
 			image: Calculadora,
 			text: 'Calculadora',
+			route: '/calculadora',
 		},
 		{
 			image: Nutricao,
 			text: 'Nutrição',
+			route: '/nutricao',
 		},
 		{
 			image: Marketing,
 			text: 'Marketing',
+			route: '/marketing',
 		},
 	];
 	return (
@@ -67,7 +73,7 @@ export const PortfolioC = () => {
 								className='box-reveal-ptf'
 								style={{ display: focusedIndex === index ? 'block' : 'none' }}>
 								<h3 className='title-portfolio'>{portfolio.text}</h3>
-								<Link to='/personal'>
+								<Link to={portfolio.route}>
 									<button className='btn-portfolio'>Acessar</button>
 								</Link>
 							</div>
