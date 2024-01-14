@@ -21,7 +21,7 @@ export const HomeC = () => {
 			<div className='container-home' style={{ zIndex: '8' }}>
 				<Fade direction='left' cascade>
 					<HomeText>
-						<h3 className='text-primary'>Seja bem vindo, me chamo</h3>
+						<h3 className='text-primary'>Seja bem vindo ! Me chamo</h3>
 						<h1 className='name-home'>
 							&lt;
 							<TypewriterComponent
