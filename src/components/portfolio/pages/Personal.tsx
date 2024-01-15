@@ -65,7 +65,11 @@ export const Personal = () => {
 									href='https://juanbueno.vercel.app/'
 									rel='noreferrer'
 									target='_blank'>
-									<AiOutlineGlobal size={25} color='#bfcfe7' />
+									<AiOutlineGlobal
+										className='icon-page'
+										size={25}
+										color='#bfcfe7'
+									/>
 									Visitar
 								</a>
 							</button>
@@ -75,7 +79,11 @@ export const Personal = () => {
 									href='https://github.com/kaiqueZpriv1/personal---juan'
 									rel='noreferrer'
 									target='_blank'>
-									<AiOutlineGithub size={25} color='#bfcfe7' />
+									<AiOutlineGithub
+										className='icon-page'
+										size={25}
+										color='#bfcfe7'
+									/>
 									Repositorio
 								</a>
 							</button>
