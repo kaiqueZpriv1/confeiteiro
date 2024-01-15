@@ -54,4 +54,12 @@ export const BoxingPortfolio = styled.div`
 		transform: scale(1.1);
 		transition: 0.4s;
 	}
+	@media (max-width: 480px) {
+		.title-portfolio{
+			font-size: 2.5em
+		}
+		.btn-portfolio{
+			font-size: 1.8em;
+		}
+	}
 `;
