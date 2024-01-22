@@ -12,6 +12,9 @@ export const HomeS = styled.main`
 		position: absolute;
 		left: 0;
 	}
+	@media (max-width: 1920px) {
+		padding: 350px 100px 630px 100px;
+	}
 `;
 
 export const HomeText = styled.div`
@@ -28,7 +31,6 @@ export const HomeText = styled.div`
 		font-size: 900;
 		text-align: center;
 	}
-
 	.name-home {
 		display: flex;
 		gap: 10px;
@@ -40,6 +42,17 @@ export const HomeText = styled.div`
 		font-size: 2em;
 		color: #bfcfe7;
 		font-size: 500;
+	}
+	@media (max-width: 1920px) {
+		.text-primary {
+			font-size: 3em;
+		}
+		.name-home {
+			font-size: 4em;
+		}
+		.description-home {
+			font-size: 2.8em;
+		}
 	}
 	@media (max-width: 480px) {
 		.text-primary {
@@ -109,6 +122,11 @@ export const Line2 = styled.div`
 		width: 90px;
 		right: 160px;
 	}
+	@media (max-width: 1920px) {
+		& {
+			display: none;
+		}
+	}
 	@media (max-width: 480px) {
 		& {
 			display: none;
@@ -122,6 +140,12 @@ export const Cerebro = styled.div`
 		position: absolute;
 		top: 100px;
 		right: 80px;
+	}
+	@media (max-width: 1920px) {
+		.cerebro-svg-right {
+			width: 170px;
+			top: 150px;
+		}
 	}
 	@media (max-width: 480px) {
 		/* & {
@@ -142,6 +166,12 @@ export const PrompIa = styled.div`
 		left: 100px;
 		bottom: 40px;
 	}
+	@media (max-width: 1920px) {
+		.promp-svg {
+			width: 200px;
+			bottom: 190px;
+		}
+	}
 	@media (max-width: 480px) {
 		/* & {
 			display: none;
@@ -160,6 +190,12 @@ export const Map = styled.div`
 		width: 550px;
 		inset: 100px 400px;
 		transform: rotate(-7deg);
+	}
+	@media (max-width: 1920px) {
+		.br-map {
+			inset: 150px 600px;
+			width: 700px;
+		}
 	}
 	@media (max-width: 480px) {
 		.br-map {
@@ -185,6 +221,14 @@ export const Invisible = styled.div`
 		font-size: 1em;
 		color: #00a7e1;
 		font-weight: 600;
+	}
+	@media (max-width: 1920px) {
+		& {
+			bottom: 80px;
+		}
+		.text-invisible{
+			font-size: 1.8em;
+		}
 	}
 	@media (max-width: 480px) {
 		& {

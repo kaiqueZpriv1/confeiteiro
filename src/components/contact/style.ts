@@ -46,6 +46,14 @@ export const RoutersContact = styled.div`
 		transition: 0.4s;
 		color: #fafafa;
 	}
+	@media (max-width: 1920px) {
+		.title-ctt{
+			font-size: 3em;
+		}
+		.router-ctt{
+			font-size: 2em;
+		}
+	}
 	@media (max-width: 480px) {
 		.title-ctt {
 			text-align: center;

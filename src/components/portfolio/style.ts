@@ -10,6 +10,14 @@ export const PortfolioS = styled.section`
 		justify-content: center;
 		gap: 50px;
 	}
+	@media (max-width: 1920px) {
+		& {
+			padding: 200px 0 100px 0;
+		}
+		.container-portfolio {
+			grid-template-columns: 450px 450px 450px;
+		}
+	}
 	@media (max-width: 480px) {
 		.container-portfolio {
 			grid-template-columns: 350px;
@@ -47,18 +55,23 @@ export const BoxingPortfolio = styled.div`
 		text-shadow: 0 0 5px #000;
 		box-shadow: 0 0 5px #000;
 	}
-	
+
 	.btn-portfolio:hover {
 		border: 2px solid #00a7e1;
 		background-color: #00a7e1;
 		transform: scale(1.1);
 		transition: 0.4s;
 	}
-	@media (max-width: 480px) {
-		.title-portfolio{
-			font-size: 2.5em
+	@media (max-width: 1920px) {
+		.img-portfolio {
+			width: 450px;
 		}
-		.btn-portfolio{
+	}
+	@media (max-width: 480px) {
+		.title-portfolio {
+			font-size: 2.5em;
+		}
+		.btn-portfolio {
 			font-size: 1.8em;
 		}
 	}

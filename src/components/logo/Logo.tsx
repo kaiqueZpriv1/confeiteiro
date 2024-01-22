@@ -15,6 +15,14 @@ export const Logo = () => {
 			font-weight: 700;
 			color: #00a7e1;
 		}
+		@media (max-width: 1920px) {
+			.name-logo {
+				font-size: 2.5em;
+			}
+			.dev-logo {
+				font-size: 2.5em;
+			}
+		}
 	`;
 	return (
 		<Link to='/'>

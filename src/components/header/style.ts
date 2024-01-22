@@ -19,6 +19,9 @@ export const HeaderS = styled.header`
 	.icon-burger {
 		display: none;
 	}
+	@media (max-width: 1920px) {
+		height: 120px;
+	}
 	@media (max-width: 480px) {
 		& {
 			width: 100%;
@@ -41,6 +44,9 @@ export const HeaderNav = styled.div`
 	display: flex;
 	gap: 40px;
 	margin-right: 200px;
+	@media (max-width: 1920px) {
+		margin-right: 600px;
+	}
 	@media (max-width: 480px) {
 		& {
 			background-color: rgba(1, 1, 14, 1);
@@ -89,6 +95,11 @@ export const RouterNav = styled.h3`
 
 		width: 100%;
 	}
+	@media (max-width: 1920px) {
+		& {
+			font-size: 2.3em;
+		}
+	}
 	@media (max-width: 480px) {
 		& {
 			font-size: 2em;
@@ -112,6 +123,11 @@ export const ButtonHeader = styled.button`
 		border: 2px solid #00a7e1;
 		transform: scale(1.1);
 		transition: 0.5s;
+	}
+	@media (max-width: 1920px) {
+		& {
+			font-size: 2em;
+		}
 	}
 	@media (max-width: 480px) {
 		& {

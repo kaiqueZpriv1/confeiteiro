@@ -10,6 +10,11 @@ export const AboutS = styled.section`
 		align-items: center;
 		justify-content: center;
 	}
+	@media (max-width: 1920px) {
+		&{
+			padding: 200px 100px 0 100px;
+		}
+	}
 	@media (max-width: 480px) {
 		& {
 			padding: 160px 0 0 0;
@@ -34,6 +39,14 @@ export const AboutText = styled.div`
 	.paragrafo-about {
 		font-size: 1.3em;
 		color: #bfcfe7;
+	}
+	@media (max-width: 1920px) {
+		.title-about {
+			font-size: 3em;
+		}
+		.paragrafo-about {
+			font-size: 1.8em;
+		}
 	}
 	@media (max-width: 480px) {
 		& {
@@ -66,6 +79,11 @@ export const ButtonAbout = styled.button`
 		background-color: #00a7e1;
 		transform: scale(1.1);
 		transition: 0.5s;
+	}
+	@media (max-width: 1920px) {
+		.btn-abt {
+			font-size: 2em;
+		}
 	}
 	@media (max-width: 480px) {
 		& {
